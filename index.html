@@ -77,9 +77,14 @@
     .actions { margin-top: 20px; text-align: center; }
 
     @media print {
-      .actions, #searchPage { display: none; }
-      body { margin: 0; }
-    }
+  .actions, #searchPage { display: none; }
+  body { margin: 0; }
+  .frame {
+    height: auto !important;
+    page-break-inside: avoid;
+  }
+}
+}
   </style>
 </head>
 <body>
